@@ -56,7 +56,7 @@ body.light-theme {
 }
 
 .light-theme .sidebar {
-    background-color: var(--light-card-bg);
+    background-color: #fff;
     color: var(--light-text);
 }
 
@@ -75,16 +75,30 @@ body.light-theme {
     width: 30px;
     height: 30px;
     margin-right: 10px;
-    color: var(--green);
+    color: #555;
 }
 
 .sidebar .nav-links li {
     margin: 15px 0;
+    color: #555;
+}
+
+.nav-links{
+    padding-top: 15px;
+    align-items: center;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.nav-links li a i{
+    font-size: 27px;
 }
 
 .sidebar .nav-links a {
     text-decoration: none;
-    color: white;
+    color: #555;
     font-size: 18px;
     display: block;
     padding: 10px;
@@ -328,7 +342,11 @@ body.light-theme {
 }
 
 .SettingHome{
-    color: #ccc;
+    color: inherit;
+}
+
+.settingHeadingMainBox22 span i{
+    text-shadow: 0 0 2px gray;
 }
 
 .SettingHomeGreaterIcon{
@@ -632,7 +650,7 @@ th{
 .BidSecondmaindiv1{
     display: flex;
     align-items: center;
-    background-color:  var(--light-text);
+    background-color: #191537;
     height: 80px;
     width: 50vmin;
     margin: 20px;
@@ -641,7 +659,8 @@ th{
 }
 
 .light-theme .main-content main .outerLayerOfMainSection .BidSecondmaindiv .BidSecondmaindiv1{
-    background-color:  var(--dark-text);
+    background-color:  #fff;
+    box-shadow: 0 0 2px #222;
 }
 
 .settingUserForm1ProfileLogoNameBox2{
@@ -653,8 +672,6 @@ font-size: 2.3vmin;
     margin-right: 30px;
     margin-top: 30px;
 }
-
-.light-theme .main-content main .outerLayerOfMainSection .activeBidDataTableContainer
 
 .bidMainContainer{
     display: flex;
@@ -700,5 +717,92 @@ font-size: 2.3vmin;
     margin-bottom: 40px;
   }
 }
+
+/* bid page css start */
+
+.SavedMainCardRow{
+    margin: 25px 0 25px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.SavedMainCard{
+    height: 430px;
+    width: 300px;
+    background-color: #191537;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border-radius: 15px;
+}
+
+.light-theme .main-content main .outerLayerOfMainSection .SavedMainCardContainer .SavedMainCardRow .SavedMainCard{
+background-color: #fff;
+box-shadow: 0 0 3px #222;
+}
+
+.SavedMainCardRow .SavedMainCard .savedCardLine{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.SavedMainCard .cardImageBox{
+height: 200px;
+width: 100%;
+}
+
+.SavedMainCard .cardImageBox img{
+    height: 100%;
+    width: 100%;
+border-radius: 15px;
+}
+
+.line1 h3{
+    font-weight: 800;
+    font-size: 22px;
+}
+
+.line3, .line4{
+    color: #7B61FF;
+}
+
+.line5 button{
+    height: 40px;
+    border-radius: 15px;
+    background-color: #7B61FF;
+    color: #fff;
+    border: none;
+    font-weight: 700;
+    font-size: 18px;
+    width: 100%;
+}
+
+.collectionNavBox{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding: 20px 0 20px 0;
+}
+
+.collectionNavBoxSpec{
+    padding: 5px 20px 5px 20px;
+    background-color: #7B61FF;
+    border-radius: 30px;
+}
+
+
+@media screen and (max-width: 600px){
+.SavedMainCardRow{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+}
+
 
 /* bid page css end */
