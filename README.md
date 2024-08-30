@@ -1,4 +1,4 @@
-##NFT-UI Project
+##{NFT-UI Project}
 #This project was developed as part of the Upskill Mafia weekly group project, focusing on creating a user-friendly interface for NFTs (Non-Fungible Tokens). The UI is designed to be intuitive and visually appealing, making it easier for users to browse, buy, or manage their NFTs.
 
 #Key Features:
