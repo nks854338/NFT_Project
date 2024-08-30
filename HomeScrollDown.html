@@ -18,27 +18,27 @@
       </div>
       <ul class="nav-links">
         <li>
-          <a href="#"
-            ><i class="fa-solid fa-table-cells-large"  style="color: #7B61FF;"></i></a>
+          <a href="/index.html"
+            ><i class="fa-solid fa-table-cells-large"></i></a>
         </li>
         <li>
-          <a href="#"
-            ><i class="fa-solid fa-clipboard-list"></i></a>
+          <a href="/HomeScrollDown.html"
+            ><i class="fa-solid fa-clipboard-list" style="color: #7B61FF;"></i></a>
         </li>
         <li>
-          <a href="#"
+          <a href="/Saved.html"
             ><i class="fa-solid fa-heart"></i></a>
         </li>
         <li>
-          <a href="#"
+          <a href="/collection.html"
             ><i class="fa-solid fa-star"></i></a>
         </li>
         <li>
-          <a href="#"
+          <a href="/profile.html"
             ><i class="fa-solid fa-user"></i></a>
         </li>
         <li>
-          <a href="#"
+          <a href="/setting.html"
             ><i class="fa-solid fa-gear"></i></a>
         </li>
         <li>
@@ -52,39 +52,32 @@
     <nav class="bottom-navbar">
       <ul class="bottom-nav-links">
         <li>
-          <a href="#"
-            ><img src="Assets/images/dashboard.svg" alt="Home" class="svg"
-          /></a>
+          <a href="/index.html"
+            ><i class="fa-solid fa-table-cells-large"></i></a>
+        </li>
+        <li>
+          <a href="/HomeScrollDown.html"
+            ><i class="fa-solid fa-clipboard-list" style="color: #7B61FF;"></i></a>
+        </li>
+        <li>
+          <a href="/Saved.html"
+            ><i class="fa-solid fa-heart"></i></a>
+        </li>
+        <li>
+          <a href="/collection.html"
+            ><i class="fa-solid fa-star"></i></a>
+        </li>
+        <li>
+          <a href="/profile.html"
+            ><i class="fa-solid fa-user"></i></a>
+        </li>
+        <li>
+          <a href="/setting.html"
+            ><i class="fa-solid fa-gear"></i></a>
         </li>
         <li>
           <a href="#"
-            ><img src="Assets/images/bid-active.png" alt="bid" class="svg"
-          /></a>
-        </li>
-        <li>
-          <a href="#"
-            ><img src="Assets/images/heart.svg" alt="saved" class="svg"
-          /></a>
-        </li>
-        <li>
-          <a href="#"
-            ><img src="Assets/images/star.svg" alt="starred" class="svg"
-          /></a>
-        </li>
-        <li>
-          <a href="#"
-            ><img src="Assets/images/user.svg" alt="user" class="svg"
-          /></a>
-        </li>
-        <li>
-          <a href="#"
-            ><img src="Assets/images/setting.svg" alt="setting" class="svg"
-          /></a>
-        </li>
-        <li>
-          <a href="#"
-            ><img src="Assets/images/logout.svg" alt="logout" class="svg"
-          /></a>
+            ><i class="fa-solid fa-right-from-bracket"></i></a>
         </li>
       </ul>
     </nav>
@@ -126,8 +119,428 @@
         </div>
       </header>
 
-      <main>
+      <main class="homeScrollMain">
         <!-- Your main content goes here -->
+        <div class="settingHeadingMainBox">
+          <div class="settingHeadingMainBox1">Bids</div>
+          <div class="settingHeadingMainBox2">
+            <div class="settingHeadingMainBox21">Welcome Bids Page</div>
+            <div class="settingHeadingMainBox22">
+              <span class="SettingHome">Home</span>
+              <span class="SettingHomeGreaterIcon"
+                ><i class="fa-solid fa-greater-than"></i
+              ></span>
+              <span class="SettingHome">Bids</span>
+            </div>
+          </div>
+        </div>
+        <div class="homeScrollInfoBoxes">
+          <div class="homeScrollInfoBox">
+            <div class="lefthomeScrollInfoImage"><img src="/Assets/images/notes4.png" alt=""></div>
+            <div class="righthomeScrollInfoBox">
+              <h3>24K</h3>
+              <p>ArtWorks</p>
+            </div>
+          </div>
+          <div class="homeScrollInfoBox">
+            <div class="lefthomeScrollInfoImage"><img src="/Assets/images/notes1.png" alt=""></div>
+            <div class="righthomeScrollInfoBox">
+              <h3>82K</h3>
+              <p>Auction</p>
+            </div>
+          </div>
+          <div class="homeScrollInfoBox">
+            <div class="lefthomeScrollInfoImage"><img src="/Assets/images/notes2.png" alt=""></div>
+            <div class="righthomeScrollInfoBox">
+              <h3>200</h3>
+              <p>Creators</p>
+            </div>
+          </div>
+          <div class="homeScrollInfoBox">
+            <div class="lefthomeScrollInfoImage"><img src="/Assets/images/notes3.png" alt=""></div>
+            <div class="righthomeScrollInfoBox">
+              <h3>89</h3>
+              <p>Canceled</p>
+            </div>
+          </div>
+        </div>
+        <div class="settingHeadingMainBox settingmarginBox">
+          <!-- <div class="settingHeadingMainBox1">Saved Items</div> -->
+          <div class="settingHeadingMainBox2">
+            <div class="settingHeadingMainBox1">Active Bids</div>
+            <div>
+              <button type="submit" class="BidBtn">Place a Bid</button>
+          </div>
+          </div>
+        </div>
+        <div class="activeBidDataTableContainer">
+          <table>
+            <thead>
+              <tr >
+                <th><i class="fa-solid fa-square" style="color: #fff;"></i></th>
+                <th>Item List</th>
+                <th>Open Price</th>
+                <th>Your Offer</th>
+                <th>Recent Offer</th>
+                <th>Time Left</th>
+                <th>Action</th>
+              </tr>
+            </thead>
+            <tbody>
+                <tr class="blankRow">
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr class="spectialRow">
+                    <td class="firstTdCell"><i class="fa-solid fa-square" style="color: #fff;"></i></td>
+                    <td>
+                      <div class="settingUserForm1Profile">
+                        <div class="profileIconLeftImage">
+                          <img src="Assets/images/1.jpg" alt="" />
+                        </div>
+                        <div class="settingUserForm1ProfileLogoNameBox">
+                          <div class="settingUserForm1ProfileLogoNameBox1">
+                            John Smith
+                          </div>
+                          <div class="settingUserForm1ProfileLogoNameBox2">
+                            Welcome Setting Page
+                          </div>
+                        </div>
+                      </div>
+                    </td>
+                    <td class="thSize">0.0025 ETH</td>
+                    <td class="thSize">0.0025 ETH</td>
+                    <td>
+                      <div class="settingUserForm1Profile">
+                        <div class="settingUserForm1ProfileLogo profileIcon">
+                          <img src="Assets/images/avatar.jpg" alt="" />
+                        </div>
+                        <div class="settingUserForm1ProfileLogoNameBox">
+                          <div class="settingUserForm1ProfileLogoNameBox2">
+                            John Smith
+                          </div>
+                        </div>
+                      </div>
+                    </td>
+                    <td class="thSize">2 Hours 1 min 30s</td>
+                    <td class="lastTdCell"><i class="fa-solid fa-x" style="color: #fff;"></i></td>
+                  </tr>
+                  <tr class="spectialRow">
+                    <td class="firstTdCell"><i class="fa-solid fa-square" style="color: #fff;"></i></td>
+                    <td>
+                      <div class="settingUserForm1Profile">
+                        <div class="profileIconLeftImage">
+                          <img src="Assets/images/1.jpg" alt="" />
+                        </div>
+                        <div class="settingUserForm1ProfileLogoNameBox">
+                          <div class="settingUserForm1ProfileLogoNameBox1">
+                            John Smith
+                          </div>
+                          <div class="settingUserForm1ProfileLogoNameBox2">
+                            Welcome Setting Page
+                          </div>
+                        </div>
+                      </div>
+                    </td>
+                    <td class="thSize">0.0025 ETH</td>
+                    <td class="thSize">0.0025 ETH</td>
+                    <td>
+                      <div class="settingUserForm1Profile">
+                        <div class="settingUserForm1ProfileLogo profileIcon">
+                          <img src="Assets/images/avatar.jpg" alt="" />
+                        </div>
+                        <div class="settingUserForm1ProfileLogoNameBox">
+                          <div class="settingUserForm1ProfileLogoNameBox2">
+                            John Smith
+                          </div>
+                        </div>
+                      </div>
+                    </td>
+                    <td class="thSize">2 Hours 1 min 30s</td>
+                    <td class="lastTdCell"><i class="fa-solid fa-x" style="color: #fff;"></i></td>
+                  </tr>
+                  <tr class="spectialRow">
+                    <td class="firstTdCell"><i class="fa-solid fa-square" style="color: #fff;"></i></td>
+                    <td>
+                      <div class="settingUserForm1Profile">
+                        <div class="profileIconLeftImage">
+                          <img src="Assets/images/1.jpg" alt="" />
+                        </div>
+                        <div class="settingUserForm1ProfileLogoNameBox">
+                          <div class="settingUserForm1ProfileLogoNameBox1">
+                            John Smith
+                          </div>
+                          <div class="settingUserForm1ProfileLogoNameBox2">
+                            Welcome Setting Page
+                          </div>
+                        </div>
+                      </div>
+                    </td>
+                    <td class="thSize">0.0025 ETH</td>
+                    <td class="thSize">0.0025 ETH</td>
+                    <td>
+                      <div class="settingUserForm1Profile">
+                        <div class="settingUserForm1ProfileLogo profileIcon">
+                          <img src="Assets/images/avatar.jpg" alt="" />
+                        </div>
+                        <div class="settingUserForm1ProfileLogoNameBox">
+                          <div class="settingUserForm1ProfileLogoNameBox2">
+                            John Smith
+                          </div>
+                        </div>
+                      </div>
+                    </td>
+                    <td class="thSize">2 Hours 1 min 30s</td>
+                    <td class="lastTdCell"><i class="fa-solid fa-x" style="color: #fff;"></i></td>
+                  </tr>
+                  <tr class="spectialRow">
+                    <td class="firstTdCell"><i class="fa-solid fa-square" style="color: #fff;"></i></td>
+                    <td>
+                      <div class="settingUserForm1Profile">
+                        <div class="profileIconLeftImage">
+                          <img src="Assets/images/1.jpg" alt="" />
+                        </div>
+                        <div class="settingUserForm1ProfileLogoNameBox">
+                          <div class="settingUserForm1ProfileLogoNameBox1">
+                            John Smith
+                          </div>
+                          <div class="settingUserForm1ProfileLogoNameBox2">
+                            Welcome Setting Page
+                          </div>
+                        </div>
+                      </div>
+                    </td>
+                    <td class="thSize">0.0025 ETH</td>
+                    <td class="thSize">0.0025 ETH</td>
+                    <td>
+                      <div class="settingUserForm1Profile">
+                        <div class="settingUserForm1ProfileLogo profileIcon">
+                          <img src="Assets/images/avatar.jpg" alt="" />
+                        </div>
+                        <div class="settingUserForm1ProfileLogoNameBox">
+                          <div class="settingUserForm1ProfileLogoNameBox2">
+                            John Smith
+                          </div>
+                        </div>
+                      </div>
+                    </td>
+                    <td class="thSize">2 Hours 1 min 30s</td>
+                    <td class="lastTdCell"><i class="fa-solid fa-x" style="color: #fff;"></i></td>
+                  </tr>
+                  <tr class="spectialRow">
+                    <td class="firstTdCell"><i class="fa-solid fa-square" style="color: #fff;"></i></td>
+                    <td>
+                      <div class="settingUserForm1Profile">
+                        <div class="profileIconLeftImage">
+                          <img src="Assets/images/1.jpg" alt="" />
+                        </div>
+                        <div class="settingUserForm1ProfileLogoNameBox">
+                          <div class="settingUserForm1ProfileLogoNameBox1">
+                            John Smith
+                          </div>
+                          <div class="settingUserForm1ProfileLogoNameBox2">
+                            Welcome Setting Page
+                          </div>
+                        </div>
+                      </div>
+                    </td>
+                    <td class="thSize">0.0025 ETH</td>
+                    <td class="thSize">0.0025 ETH</td>
+                    <td>
+                      <div class="settingUserForm1Profile">
+                        <div class="settingUserForm1ProfileLogo profileIcon">
+                          <img src="Assets/images/avatar.jpg" alt="" />
+                        </div>
+                        <div class="settingUserForm1ProfileLogoNameBox">
+                          <div class="settingUserForm1ProfileLogoNameBox2">
+                            John Smith
+                          </div>
+                        </div>
+                      </div>
+                    </td>
+                    <td class="thSize">2 Hours 1 min 30s</td>
+                    <td class="lastTdCell"><i class="fa-solid fa-x" style="color: #fff;"></i></td>
+                  </tr>
+                  <tr class="spectialRow">
+                    <td class="firstTdCell"><i class="fa-solid fa-square" style="color: #fff;"></i></td>
+                    <td>
+                      <div class="settingUserForm1Profile">
+                        <div class="profileIconLeftImage">
+                          <img src="Assets/images/1.jpg" alt="" />
+                        </div>
+                        <div class="settingUserForm1ProfileLogoNameBox">
+                          <div class="settingUserForm1ProfileLogoNameBox1">
+                            John Smith
+                          </div>
+                          <div class="settingUserForm1ProfileLogoNameBox2">
+                            Welcome Setting Page
+                          </div>
+                        </div>
+                      </div>
+                    </td>
+                    <td class="thSize">0.0025 ETH</td>
+                    <td class="thSize">0.0025 ETH</td>
+                    <td>
+                      <div class="settingUserForm1Profile">
+                        <div class="settingUserForm1ProfileLogo profileIcon">
+                          <img src="Assets/images/avatar.jpg" alt="" />
+                        </div>
+                        <div class="settingUserForm1ProfileLogoNameBox">
+                          <div class="settingUserForm1ProfileLogoNameBox2">
+                            John Smith
+                          </div>
+                        </div>
+                      </div>
+                    </td>
+                    <td class="thSize">2 Hours 1 min 30s</td>
+                    <td class="lastTdCell"><i class="fa-solid fa-x" style="color: #fff;"></i></td>
+                  </tr>
+                  <tr class="spectialRow">
+                    <td class="firstTdCell"><i class="fa-solid fa-square" style="color: #fff;"></i></td>
+                    <td>
+                      <div class="settingUserForm1Profile">
+                        <div class="profileIconLeftImage">
+                          <img src="Assets/images/1.jpg" alt="" />
+                        </div>
+                        <div class="settingUserForm1ProfileLogoNameBox">
+                          <div class="settingUserForm1ProfileLogoNameBox1">
+                            John Smith
+                          </div>
+                          <div class="settingUserForm1ProfileLogoNameBox2">
+                            Welcome Setting Page
+                          </div>
+                        </div>
+                      </div>
+                    </td>
+                    <td class="thSize">0.0025 ETH</td>
+                    <td class="thSize">0.0025 ETH</td>
+                    <td>
+                      <div class="settingUserForm1Profile">
+                        <div class="settingUserForm1ProfileLogo profileIcon">
+                          <img src="Assets/images/avatar.jpg" alt="" />
+                        </div>
+                        <div class="settingUserForm1ProfileLogoNameBox">
+                          <div class="settingUserForm1ProfileLogoNameBox2">
+                            John Smith
+                          </div>
+                        </div>
+                      </div>
+                    </td>
+                    <td class="thSize">2 Hours 1 min 30s</td>
+                    <td class="lastTdCell"><i class="fa-solid fa-x" style="color: #fff;"></i></td>
+                  </tr>
+                  <tr class="spectialRow">
+                    <td class="firstTdCell"><i class="fa-solid fa-square" style="color: #fff;"></i></td>
+                    <td>
+                      <div class="settingUserForm1Profile">
+                        <div class="profileIconLeftImage">
+                          <img src="Assets/images/1.jpg" alt="" />
+                        </div>
+                        <div class="settingUserForm1ProfileLogoNameBox">
+                          <div class="settingUserForm1ProfileLogoNameBox1">
+                            John Smith
+                          </div>
+                          <div class="settingUserForm1ProfileLogoNameBox2">
+                            Welcome Setting Page
+                          </div>
+                        </div>
+                      </div>
+                    </td>
+                    <td class="thSize">0.0025 ETH</td>
+                    <td class="thSize">0.0025 ETH</td>
+                    <td>
+                      <div class="settingUserForm1Profile">
+                        <div class="settingUserForm1ProfileLogo profileIcon">
+                          <img src="Assets/images/avatar.jpg" alt="" />
+                        </div>
+                        <div class="settingUserForm1ProfileLogoNameBox">
+                          <div class="settingUserForm1ProfileLogoNameBox2">
+                            John Smith
+                          </div>
+                        </div>
+                      </div>
+                    </td>
+                    <td class="thSize">2 Hours 1 min 30s</td>
+                    <td class="lastTdCell"><i class="fa-solid fa-x" style="color: #fff;"></i></td>
+                  </tr>
+                  <tr class="spectialRow">
+                    <td class="firstTdCell"><i class="fa-solid fa-square" style="color: #fff;"></i></td>
+                    <td>
+                      <div class="settingUserForm1Profile">
+                        <div class="profileIconLeftImage">
+                          <img src="Assets/images/1.jpg" alt="" />
+                        </div>
+                        <div class="settingUserForm1ProfileLogoNameBox">
+                          <div class="settingUserForm1ProfileLogoNameBox1">
+                            John Smith
+                          </div>
+                          <div class="settingUserForm1ProfileLogoNameBox2">
+                            Welcome Setting Page
+                          </div>
+                        </div>
+                      </div>
+                    </td>
+                    <td class="thSize">0.0025 ETH</td>
+                    <td class="thSize">0.0025 ETH</td>
+                    <td>
+                      <div class="settingUserForm1Profile">
+                        <div class="settingUserForm1ProfileLogo profileIcon">
+                          <img src="Assets/images/avatar.jpg" alt="" />
+                        </div>
+                        <div class="settingUserForm1ProfileLogoNameBox">
+                          <div class="settingUserForm1ProfileLogoNameBox2">
+                            John Smith
+                          </div>
+                        </div>
+                      </div>
+                    </td>
+                    <td class="thSize">2 Hours 1 min 30s</td>
+                    <td class="lastTdCell"><i class="fa-solid fa-x" style="color: #fff;"></i></td>
+                  </tr>
+                  <tr class="spectialRow">
+                    <td class="firstTdCell"><i class="fa-solid fa-square" style="color: #fff;"></i></td>
+                    <td>
+                      <div class="settingUserForm1Profile">
+                        <div class="profileIconLeftImage">
+                          <img src="Assets/images/1.jpg" alt="" />
+                        </div>
+                        <div class="settingUserForm1ProfileLogoNameBox">
+                          <div class="settingUserForm1ProfileLogoNameBox1">
+                            John Smith
+                          </div>
+                          <div class="settingUserForm1ProfileLogoNameBox2">
+                            Welcome Setting Page
+                          </div>
+                        </div>
+                      </div>
+                    </td>
+                    <td class="thSize">0.0025 ETH</td>
+                    <td class="thSize">0.0025 ETH</td>
+                    <td>
+                      <div class="settingUserForm1Profile">
+                        <div class="settingUserForm1ProfileLogo profileIcon">
+                          <img src="Assets/images/avatar.jpg" alt="" />
+                        </div>
+                        <div class="settingUserForm1ProfileLogoNameBox">
+                          <div class="settingUserForm1ProfileLogoNameBox2">
+                            John Smith
+                          </div>
+                        </div>
+                      </div>
+                    </td>
+                    <td class="thSize">2 Hours 1 min 30s</td>
+                    <td class="lastTdCell"><i class="fa-solid fa-x" style="color: #fff;"></i></td>
+                  </tr>
+                  
+            </tbody>
+          </table>
+        </div>
+
         <div class="outerLayerOfMainSection">
         <div class="settingHeadingMainBox1 ActiveBidsHeading">Active Bids</div>
         <div class="activeBidDataTableContainer">
@@ -170,8 +583,8 @@
                         </div>
                       </div>
                     </td>
-                    <td>0.0025 ETH</td>
-                    <td>0.0025 ETH</td>
+                    <td class="thSize">0.0025 ETH</td>
+                    <td class="thSize">0.0025 ETH</td>
                     <td>
                       <div class="settingUserForm1Profile">
                         <div class="settingUserForm1ProfileLogo profileIcon">
@@ -184,7 +597,7 @@
                         </div>
                       </div>
                     </td>
-                    <td>2 Hours 1 min 30s</td>
+                    <td class="thSize">2 Hours 1 min 30s</td>
                     <td class="lastTdCell"><i class="fa-solid fa-x" style="color: #fff;"></i></td>
                   </tr>
                   <tr class="spectialRow">
@@ -204,8 +617,8 @@
                         </div>
                       </div>
                     </td>
-                    <td>0.0025 ETH</td>
-                    <td>0.0025 ETH</td>
+                    <td class="thSize">0.0025 ETH</td>
+                    <td class="thSize">0.0025 ETH</td>
                     <td>
                       <div class="settingUserForm1Profile">
                         <div class="settingUserForm1ProfileLogo profileIcon">
@@ -218,7 +631,7 @@
                         </div>
                       </div>
                     </td>
-                    <td>2 Hours 1 min 30s</td>
+                    <td class="thSize">2 Hours 1 min 30s</td>
                     <td class="lastTdCell"><i class="fa-solid fa-x" style="color: #fff;"></i></td>
                   </tr>
                   <tr class="spectialRow">
@@ -238,8 +651,8 @@
                         </div>
                       </div>
                     </td>
-                    <td>0.0025 ETH</td>
-                    <td>0.0025 ETH</td>
+                    <td class="thSize">0.0025 ETH</td>
+                    <td class="thSize">0.0025 ETH</td>
                     <td>
                       <div class="settingUserForm1Profile">
                         <div class="settingUserForm1ProfileLogo profileIcon">
@@ -252,7 +665,7 @@
                         </div>
                       </div>
                     </td>
-                    <td>2 Hours 1 min 30s</td>
+                    <td class="thSize">2 Hours 1 min 30s</td>
                     <td class="lastTdCell"><i class="fa-solid fa-x" style="color: #fff;"></i></td>
                   </tr>
                   <tr class="spectialRow">
@@ -272,8 +685,8 @@
                         </div>
                       </div>
                     </td>
-                    <td>0.0025 ETH</td>
-                    <td>0.0025 ETH</td>
+                    <td class="thSize">0.0025 ETH</td>
+                    <td class="thSize">0.0025 ETH</td>
                     <td>
                       <div class="settingUserForm1Profile">
                         <div class="settingUserForm1ProfileLogo profileIcon">
@@ -286,7 +699,7 @@
                         </div>
                       </div>
                     </td>
-                    <td>2 Hours 1 min 30s</td>
+                    <td class="thSize">2 Hours 1 min 30s</td>
                     <td class="lastTdCell"><i class="fa-solid fa-x" style="color: #fff;"></i></td>
                   </tr>
                   <tr class="spectialRow">
@@ -306,8 +719,8 @@
                         </div>
                       </div>
                     </td>
-                    <td>0.0025 ETH</td>
-                    <td>0.0025 ETH</td>
+                    <td class="thSize">0.0025 ETH</td>
+                    <td class="thSize">0.0025 ETH</td>
                     <td>
                       <div class="settingUserForm1Profile">
                         <div class="settingUserForm1ProfileLogo profileIcon">
@@ -320,7 +733,7 @@
                         </div>
                       </div>
                     </td>
-                    <td>2 Hours 1 min 30s</td>
+                    <td class="thSize">2 Hours 1 min 30s</td>
                     <td class="lastTdCell"><i class="fa-solid fa-x" style="color: #fff;"></i></td>
                   </tr>
                   
